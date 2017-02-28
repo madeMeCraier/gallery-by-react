@@ -49,11 +49,11 @@ function getDefaultModules() {
         loader:'json-loader'
       },
       {
-        test: /\.(png|jpg|gif|woff|woff2)$/,
+        test: /\.(png|jpg|gif|woff|woff2|eot|svg|ttf)$/,
         loader: 'url-loader?limit=8192'
       },
       {
-        test: /\.(mp4|ogg|svg)$/,
+        test: /\.(mp4|ogg|svg|)$/,
         loader: 'file-loader'
       }
     ]
